@@ -1,4 +1,5 @@
 FROM elek/spark-base
+ENV HADOOP_CONF_DIR /opt/zeppelin/conf
 ENV CONF_DIR /opt/zeppelin/conf
 ENV SPARK_HOME /opt/spark
 ADD url ./

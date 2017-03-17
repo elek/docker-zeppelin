@@ -1,4 +1,5 @@
 FROM elek/spark-base:2.1.0
+RUN apk add --no-cache libstdc++
 ENV HADOOP_CONF_DIR /opt/zeppelin/conf
 ENV SPARK_HOME /opt/spark
 ENV SPARK_CONF_DIR /opt/zeppelin/conf

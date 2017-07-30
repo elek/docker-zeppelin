@@ -3,8 +3,9 @@ sudo: required
 env:
   - VERSION=latest
   - VERSION=0.7.2 URL=http://xenia.sote.hu/ftp/mirrors/www.apache.org/zeppelin/zeppelin-0.7.2/zeppelin-0.7.2-bin-all.tgz
-  - VERSION=0.7.1 URL=http://xenia.sote.hu/ftp/mirrors/www.apache.org/zeppelin/zeppelin-0.7.1/zeppelin-0.7.1-bin-all.tgz
-  - VERSION=0.7.0 URL=http://xenia.sote.hu/ftp/mirrors/www.apache.org/zeppelin/zeppelin-0.7.0/zeppelin-0.7.0-bin-all.tgz
+  - VERSION=0.7.1 URL=https://archive.apache.org/dist/zeppelin/zeppelin-0.7.1/zeppelin-0.7.1-bin-all.tgz
+  - VERSION=0.7.0 URL=https://archive.apache.org/dist/zeppelin/zeppelin-0.7.0/zeppelin-0.7.0-bin-all.tgz
+  - VERSION=0.6.2 URL=https://archive.apache.org/dist/zeppelin/zeppelin-0.6.2/zeppelin-0.6.2-bin-all.tgz
 
 services:
    - docker

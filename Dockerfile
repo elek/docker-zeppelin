@@ -1,4 +1,4 @@
-FROM elek/spark-base:2.1.1
+FROM flokkr/spark:build
 RUN apk add --no-cache libstdc++
 ENV HADOOP_CONF_DIR /opt/zeppelin/conf
 ENV SPARK_HOME /opt/spark

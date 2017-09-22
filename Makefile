@@ -1,7 +1,7 @@
 
 
 VERSION ?= latest
-URL ?= http://xenia.sote.hu/ftp/mirrors/www.apache.org/zeppelin/zeppelin-0.7.2/zeppelin-0.7.2-bin-all.tgz
+URL ?= http://xenia.sote.hu/ftp/mirrors/www.apache.org/zeppelin/zeppelin-0.7.3/zeppelin-0.7.3-bin-all.tgz
 SPARKVERSION ?= 2.2.0
 
 build:

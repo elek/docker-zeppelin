@@ -1,0 +1,11 @@
+version: "2"
+services:
+  zeppelin:
+    image: flokkr/zeppelin
+    ports:
+      - 8080:8080
+    environment:
+      LOG4J.PROPERTIES_log4j.rootLogger: INFO, stdout
+      LOG4J.PROPERTIES_log4j.appender.stdout: org.apache.log4j.ConsoleAppender
+      LOG4J.PROPERTIES_log4j.appender.stdout.layout: org.apache.log4j.PatternLayout
+      LOG4J.PROPERTIES_log4j.appender.stdout.layout.ConversionPattern: "%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"

@@ -1,7 +1,9 @@
 sudo: required
 
 env:
-  - VERSION=0.7.3 TAG=latest
+  - VERSION=0.7.3 TAG=0.7.3
+  - VERSION=0.8.0 TAG=latest
+  - VERSION=0.8.0 TAG=0.8.0
 
 services:
    - docker
